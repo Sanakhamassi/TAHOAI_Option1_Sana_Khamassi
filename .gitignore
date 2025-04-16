@@ -1,0 +1,19 @@
+# Ignore virtual environments inside backend
+taho-ai-doc-backend/env/
+
+# Ignore compiled Python files
+__pycache__/
+*.py[cod]
+*.so
+
+# Ignore Torch-related heavy files if still lingering
+taho-ai-doc-backend/**/*.dll
+taho-ai-doc-backend/**/*.lib
+
+taho-ai-doc-frontend/node_modules/
+taho-ai-doc-frontend/.next/
+taho-ai-doc-frontend/dist/
+taho-ai-doc-frontend/.env
+
+# macOS / system files
+.DS_Store
