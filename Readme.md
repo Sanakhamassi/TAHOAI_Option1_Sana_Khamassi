@@ -53,12 +53,12 @@ Make sure your backend is running at http://localhost:8000 to receive prediction
 
 ## 🖼️ Screenshots
 📄 Upload File 
-![Upload Screenshot](Screenshots/2.png)
+![Upload Screenshot](Screenshots/1.png)
 
 📤 Upload Text
 ![Text Screenshot](Screenshots/3.png) 
 
 🚨 Error Handling Screenshots
-![Error Screenshot](Screenshots/1.png)
+![Error Screenshot](Screenshots/2.png)
 
 
