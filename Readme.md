@@ -27,9 +27,38 @@ pip install -r requirements.txt
 uvicorn app.main:app --reload --port 8000
 ---
 
-
-
-
-
-
 ```
+## 🐳 Backend — With Docker, follow these steps:
+
+Make sure Docker is installed and running.
+```bash
+cd taho-ai-doc-backend
+docker build -t taho-backend .
+docker run -p 8000:8000 taho-backend
+---
+```
+
+## 🌐  Frontend (React + Vite)
+
+```bash
+cd taho-ai-doc-frontend
+npm install
+npm run dev
+---
+```
+Then visit your frontend app at:
+📍 http://localhost:5173
+
+Make sure your backend is running at http://localhost:8000 to receive predictions. 
+
+## 🖼️ Screenshots
+📄 Upload File 
+![Upload Screenshot](Screenshots/2.png)
+
+📤 Upload Text
+![Text Screenshot](Screenshots/3.png) 
+
+🚨 Error Handling Screenshots
+![Error Screenshot](Screenshots/1.png)
+
+
